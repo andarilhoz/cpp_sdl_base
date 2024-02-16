@@ -45,7 +45,7 @@ int main(int argc, char* argv[]) {
     SDL_RenderPresent(renderer);
 
     // Espera por 5 segundos
-    SDL_Delay(5000);
+    SDL_Delay(50000);
 
     SDL_DestroyRenderer(renderer);
     SDL_DestroyWindow(window);
